@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="branding">Coffee Home</div>
+        <div class="toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="mailto:sarathc381@gmail.com">Contact</a></li>
+          <li><a href="https://www.google.co.in/maps/place/Home/@13.0622553,80.095052,12z/data=!4m10!1m2!2m1!1scoffee+home!3m6!1s0x3a52610040b86b21:0x18fe371a6008e579!8m2!3d13.0622557!4d80.1833609!15sCgtjb2ZmZWUgaG9tZZIBC2NvZmZlZV9zaG9w4AEA!16s%2Fg%2F11wqctz1jz?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Location</a></li>
+        </ul>
+        <ul class="social_links">
+          <li><a href="#insta"><img src="./image/instagram-brands-solid.svg" width="30px"/></a></li>
+          <li><a href="#facebook"><img src="./image/facebook-brands-solid (1).svg" width="30px"/></a></li>
+          <li><a href="#twitter"><img src="./image/twitter-brands-solid.svg" width="30px"/></a></li>
+          <li><a href="https://www.youtube.com/results?search_query=coffee"><img src="./image/youtube-brands-solid.svg" width="30px"/></a></li>
+          <li><a href="./login.html"><img src="./image/user-solid.svg" width="30px"/></a></li>
+        </ul>
+    </nav>
+    <div class="main_name">
+      <h1>Coffee Home</h1>
+      <p>since 2003</p>
+    </div>
+    <div class="top_m">
+      <div class="top_m1">
+        <img src="./image/cap.jpg"/>
+        <a href="#">Cappichino</a>
+      </div>
+      <div class="top_m2">
+        <img src="./image/expresso.jpg"/>
+        <a href="#">Expresso</a>
+      </div>
+      <div class="top_m3">
+        <img src="./image/latte.jpg"/>
+        <a href="#">Latte</a>
+      </div>
+    </div>
+    <div class="layers">
+      <a href="#" class="layer layer_1">
+        <p>Bakery</p>
+      </a>
+      <a href="#" class="layer layer_2">
+        <p>cold brews</p>
+      </a>
+      <a href="#" class="layer layer_3">
+        <p>Moctails</p>
+      </a>
+    </div>
+    <div class="quate">
+      <h3>Success Brews Stronger</h3>
+      <h2>with a splash of</h2>
+      <h1>DEDICATION</h1>
+    </div>
+    <div class="footer">
+      <p>climax</p>
+    </div>
+    
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById('menu');
+          menu.classList.toggle('active');
+        }
+      </script>
+</body>
+</html>
